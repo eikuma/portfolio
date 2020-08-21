@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IKUMA's portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="html5reset-1.6.1.css">
+    <!-- Place your kit's code here -->
+    <script src="https://kit.fontawesome.com/1a3b53a2e6.js" crossorigin="anonymous"></script>
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--formrun-->
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="h-nav-contents">
+        <a href="#header" id="logo"><img src="images/logo-min.png" alt="logo"></a>
+        <div class="sp-menu">
+          <input type="checkbox" id="nav-input" class="nav-invisible">
+          <label id="nav-open" for="nav-input"><span></span></label>
+          <label class="nav-invisible" id="nav-close" for="nav-input"></label>
+          <div id="nav-contents" class="text-center h4">
+            <nav>
+              <ul>
+                <li class="sp-menu-list mt-5 mb-3"><a href="#about" data-hover="ABOUT">ABOUT</a></li>
+                <li class="sp-menu-list mt-3 mb-3"><a href="#services" data-hover="SERVICES">SERVICES</a></li>
+                <li class="sp-menu-list mt-3 mb-3"><a href="#skills" data-hover="SKILLS">SKILLS</a></li>
+                <li class="sp-menu-list mt-3 mb-3"><a href="#works" data-hover="WORKS">WORKS</a></li>
+                <li class="sp-menu-list mt-3 mb-3"><a href="#contact" data-hover="CONTACT">CONTACT</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <nav class="h-nav">
+          <ul class="h-menu">
+              <li class="h-list"><a href="#about" data-hover="ABOUT">ABOUT</a></li>
+              <li class="h-list"><a href="#services" data-hover="SERVICES">SERVICES</a></li>
+              <li class="h-list"><a href="#skills" data-hover="SKILLS">SKILLS</a></li>
+              <li class="h-list"><a href="#works" data-hover="WORKS">WORKS</a></li>
+              <li class="h-list"><a href="#contact" data-hover="CONTACT">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div> 
+      <div class="h-bg-slider">
+        <div class="h-bg-slider__title">
+          <h1 class="h-bg-slider-name">IKUMA's Portfolio</h1>
+          <p class="h-bg-slider-sub">Welcome to my portfolio site</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="about">
+        <div class="back">
+          <div class="container">
+            <div class="row">
+              <div class="col d-flex justify-content-center pt-3 mb-5 border-bottom">
+                <h2 class="h1">ABOUT</h2>
+              </div>
+            </div> 
+            <div class="row">
+              <div class="col-xl-5 d-flex justify-content-center">
+                <img src="images/profile.jpg" alt="profile">
+              </div>
+              <div class="col-xl-7 pt-4">
+                <p class="font-weight-bold pl-4">
+                  江崎郁磨（Esaki Ikuma）
+                </p>
+                <br>
+                <p style="line-height: 1.5;" class="pl-4 pb-4">
+                  こんにちは。ご覧いただきありがとうございます。<br>
+                  埼玉県在住で東京農工大学工学部に在学している<span>江崎郁磨</span>と申します。<br><br>
+                  現在Web制作を行っており、日々スキルアップのために学習中でございます。<br>
+                  頂いたお仕事は誠心誠意取り組ませていただきます。<br>
+                  よろしくお願いいたします。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <div class="back">
+          <div class="container">
+            <div class="row">
+              <div class="col d-flex justify-content-center pt-3 mb-5 border-bottom">
+                <h2 class="h1">SERVICES</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-6 text-center mb-4">
+                <i class="fas fa-code fa-7x pb-3"></i>
+                <h3 class="h3 pb-2">coding</h3>
+                <p style="line-height: 1.5;" class="mb-4">お客様からお預かりいたしたデザインに従い、適切にページをコーディング致します。</p>
+              </div>
+              <div class="col-lg-3 col-md-6 text-center mb-4">
+                <i class="fas fa-laptop fa-7x pb-3"></i>
+                <h3 class="h3 pb-2">website</h3>
+                <p style="line-height: 1.5;" class="mb-4">お客様のご要望を丁寧にヒアリングし、それに沿ったホームページやランディングページを作成致します。</p>
+              </div>
+              <div class="col-lg-3 col-md-6 text-center mb-4">
+                <i class="fas fa-mobile-alt fa-7x pb-3"></i>
+                <h3 class="h3 pb-2">responsive</h3>
+                <p style="line-height: 1.5;" class="mb-4">webページをスマートフォンやタブレットでも快適に閲覧することができるように対応致します。</p>
+              </div>
+              <div class="col-lg-3 col-md-6 text-center mb-4">
+                <i class="fas fa-wrench fa-7x pb-3"></i>
+                <h3 class="h3 pb-2">maintenance</h3>
+                <p style="line-height: 1.5;" class="mb-4">既存のページの修正や、新たな機能の追加などに対応致します。</p>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="back">
+          <div class="container">
+            <div class="row">
+              <div class="col d-flex justify-content-center pt-3 mb-5 border-bottom">
+                <h2 class="h1">SKILLS</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-6 text-center mb-4">
+                <i class="fab fa-html5 fa-7x"></i>
+                <p class="font-weight-bold ">HTML</p>
+              </div>
+              <div class="col-lg-3 col-md-6 text-center mb-4">
+                <i class="fab fa-css3-alt fa-7x"></i>
+                <p class="font-weight-bold ">CSS</p>
+              </div>
+              <div class="col-lg-3 col-md-6 text-center mb-4">
+                <i class="fab fa-js-square fa-7x"></i>
+                <p class="font-weight-bold ">JavaScript</p>
+              </div>
+              <div class="col-lg-3 col-md-6 text-center mb-4">
+                <i class="fab fa-bootstrap fa-7x"></i>
+                <p class="font-weight-bold ">Bootstrap</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="works">
+        <div class="back">
+          <div class="container">
+            <div class="row">
+              <div class="col d-flex justify-content-center pt-3 mb-5 border-bottom">
+                <h2 class="h1">WORKS</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 text-center mb-4">
+                <a href=""><img class="w-100" src="images/portfolio-min.jpg" alt=""></a>
+                <p class="mt-3">Portfolio</p>
+              </div>
+              <div class="col-lg-4 col-md-6 text-center mb-4">
+                <a href="https://eikuma.github.io/sample_site1/"><img class="w-100" src="images/sample1.jpg" alt="sample1"></a>
+                <p class="mt-3">模写1</p>
+                <p>シンプルホームページ</p>
+              </div>
+              <div class="col-lg-4 col-md-6 text-center mb-4">
+                <a href="https://eikuma.github.io/sample_site2_responsive/"><img class="w-100" src="images/sample2.jpg" alt="sample2"></a>
+                <p class="mt-3">模写2</p>
+                <p>シンプルコーポレートサイト</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="back">
+          <div class="container">
+            <div class="row">
+              <div class="col d-flex justify-content-center pt-3 mb-5 border-bottom">
+                <h2 class="h1">CONTACT</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col d-flex justify-content-center pb-5">
+                <p>下記のフォームからお気軽にご連絡ください。</p>
+              </div>
+            </div>
+              <!-- class, action, methodを変更しないでください -->
+            <form class="formrun" action="https://form.run/api/v1/r/bqtysabrt9oqq6sh7zgfpqwg" method="post">
+              <!-- ↓自由に要素を追加・編集することができます -->
+              <div class="row">
+                <div class="col text-center pb-4">
+                  <label class="mb-2">お名前</label><br>
+                  <input name="お名前" type="text" class="w-75">
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col text-center pb-4">
+                  <label class="mb-2">メールアドレス [必須]</label><br>
+                  <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required class="w-75">
+                  <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col text-center pb-4">
+                  <label class="mb-2">お問い合わせ [必須]</label><br>
+                  <textarea name="お問い合わせ" data-formrun-required class="w-75 h-100"></textarea>
+                  <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+                </div>
+              </div>
+              
+
+              <!-- ボット投稿をブロックするためのタグ -->
+              <div class="_formrun_gotcha">
+                <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+                <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+              </div>
+
+              <div class="row">
+                <div class="col text-center pt-5">
+                  <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+                </div>
+              </div>
+            </form>
+
+            <div class="row pt-5">
+              <div class="col text-center">
+                <p class="pb-3">TwitterのDMからも受け付けております。</p>
+                <a href="https://twitter.com/IKUMA_program"><i class="fab fa-twitter fa-2x mb-4"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="text-center pt-3">
+        <p>&copy;<a href="index.html"> Ikuma Esaki</a> 2020</p>
+    </footer>  
+    <script src="script.js"></script>
+  </body>
+</html>

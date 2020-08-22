@@ -136,6 +136,7 @@ body{
 #about img{
 	border-radius: 50%;
 	width: 75%;
+	height: auto;
 }
 #services{
 	background-image: url(images/bg1.jpg);
